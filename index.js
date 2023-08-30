@@ -33,3 +33,7 @@ const email = prompt("QUAL SEU EMAIL?")
 console.log(email)
 
 console.log("O usuario", email, "foi cadastrado com sucesso.Seja bem-vinda(o),", nome)
+
+
+const listaDeComidas = ["arroz", "feijão", "pizza", "sopa", "batataFrita"]
+console.log(listaDeComidas)
