@@ -1,3 +1,4 @@
+
 // this is a js file
 // Franciele Dorr Dos Santos
 
@@ -18,3 +19,10 @@ console.log('e. ', array)
 
 const valor = array[i+6]
 console.log('f. ', valor)
+
+
+const frase = prompt("subi num onibus em marrocos")
+console.log(frase)
+
+console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+console.log(frase)
