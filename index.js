@@ -26,3 +26,10 @@ console.log(frase)
 
 console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
 console.log(frase)
+
+const nome = prompt("QUAL O SEU NOME?")
+console.log(nome)
+const email = prompt("QUAL SEU EMAIL?")
+console.log(email)
+
+console.log("O usuario", email, "foi cadastrado com sucesso.Seja bem-vinda(o),", nome)
