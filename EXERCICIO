@@ -1,0 +1,74 @@
+// this is a js file
+// Franciele Dorr Dos Santos
+
+
+//1. a.  undefined
+//b.  null
+// c.  11
+//d.  3
+//e.  (11) [3, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+//f.  9
+
+
+
+
+//2.CAIXA DE PERGUNTA EM LETRA MINUSCULA, RESPOSTA EM LETRA MAIUSCULA: NAO
+//NIO 3
+
+
+
+
+//B) FRANCIELE
+//frandorr@hotmail.com
+//O usuario frandorr@hotmail.com foi cadastrado com sucesso.Seja bem-vinda(o), FRANCIELE
+
+//const nome = prompt("QUAL O SEU NOME?")
+//console.log(nome)
+//const email = prompt("QUAL SEU EMAIL?")
+//console.log(email)
+//console.log("O usuario", email, "foi cadastrado com sucesso.Seja bem-vinda(o),", nome)
+
+
+
+
+
+//2 (5) ['arroz', 'feijão', 'pizza', 'sopa', 'batataFrita']
+//Essas são as minhas comidas preferidas:
+//arroz
+//feijão
+//pizza
+//sopa
+//batataFrita
+
+
+const listaDeComidas = ["arroz", "feijão", "pizza", "sopa", "batataFrita"]
+console.log(listaDeComidas)
+
+
+const frase = ("Essas são as minhas comidas preferidas:")
+console.log(frase)
+
+const zeroItem = listaDeComidas[0]
+console.log(zeroItem)
+
+const primeiroItem = listaDeComidas[1]
+console.log(primeiroItem)
+
+const segundoItem = listaDeComidas[2]
+console.log(segundoItem)
+
+const terceiroItem = listaDeComidas[3]
+console.log(terceiroItem)
+
+const quartoItem = listaDeComidas[4]
+console.log(quartoItem)
+
+//c.
+const comida = prompt("qual sua comida preferida?")
+console.log(comida)
+
+const pergunta = ("arroz", "feijão", "pizza", "sopa", "batataFrita")
+console.log(pergunta)
+
+const novaFrase = pergunta.replaceAll("pizza", "lasanha")
+console.log(novaFrase)
